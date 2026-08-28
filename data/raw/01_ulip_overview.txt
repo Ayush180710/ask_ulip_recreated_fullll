@@ -1,0 +1,8 @@
+TITLE: ULIP Overview and Government Systems
+SOURCE: Press Information Bureau, Government of India
+URL: https://www.pib.gov.in/PressReleasePage.aspx?PRID=2282498&lang=1&reg=3
+DATE: 2026-07-08
+
+The Unified Logistics Interface Platform (ULIP) serves as a unified digital gateway for logistics-related data from multiple government systems through API-based integration. A July 2026 PIB release states that ULIP connects 46 government systems across 12 Central Ministries and Departments through 142 APIs and covers more than 2,000 data fields. The release says the platform has enabled more than 260 applications and more than 450 crore API transactions.
+
+The same release describes ULIP as supporting transparency, logistics efficiency, operational visibility, inter-departmental coordination and data-driven decision-making. The platform is used to enable seamless exchange of logistics data across departments and to support industry, MSMEs, exporters and other logistics stakeholders.

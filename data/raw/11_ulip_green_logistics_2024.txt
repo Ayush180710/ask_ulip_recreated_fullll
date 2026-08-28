@@ -1,0 +1,10 @@
+TITLE: ULIP and Green Logistics
+SOURCE: Press Information Bureau, Government of India
+URL: https://www.pib.gov.in/PressReleasePage.aspx?PRID=2037575&lang=1&reg=3
+DATE: 2024-07-26
+
+A July 2024 PIB release describes sustainable logistics as important for economic growth and environmental well-being. It says that the National Logistics Policy promotes digital technology adoption and that NICDC has developed ULIP and the Logistics Data Bank for digital tracking and monitoring of logistics movement.
+
+The release says ULIP and the PM GatiShakti National Master Plan support data-driven decision-making. At the time of the release, ULIP provided industry users secure access to logistics data held by multiple ministries, with 37 systems from ten ministries integrated through 118 APIs and more than 1,800 data fields.
+
+It also describes policy measures for sustainable logistics, including multimodal transport, digitalization and automation. A Freight Greenhouse Gas Calculator is described as a tool for comparing transport costs and greenhouse-gas emissions for a fixed origin-destination pair.

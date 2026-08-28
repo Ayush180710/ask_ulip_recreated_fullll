@@ -1,0 +1,6 @@
+Prebuilt Ask ULIP demo index.
+
+File: faiss.index
+Type in this offline package: NumPy vector matrix stored in an .npz container under the requested FAISS index filename.
+Purpose: self-contained manager demo without requiring a model download.
+For production: install faiss-cpu + sentence-transformers and rebuild a genuine FAISS IndexFlatIP index.

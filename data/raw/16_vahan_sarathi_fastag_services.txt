@@ -1,0 +1,10 @@
+TITLE: Vahan, Sarathi and FASTag Services
+SOURCE: Press Information Bureau, Ministry of Road Transport and Highways
+URL: https://www.pib.gov.in/PressReleasePage.aspx?PRID=1514868&lang=2&reg=3
+DATE: public government release, accessed for project corpus
+
+A Ministry of Road Transport and Highways PIB release describes Vahan and Sarathi as the two flagship applications of the Transport Mission Mode Project. It says Vahan covers vehicle registration, taxation, permits, fitness and related services. Sarathi covers driving licences, learner licences, driving schools and related services.
+
+The source describes FASTag as an electronic toll-collection mechanism used at fee plazas. It says the initiative supports digital toll payment and smoother passage through toll plazas, and discusses wider adoption of FASTag for road users.
+
+In a logistics context, Vahan-style vehicle-registration information can support vehicle verification and gate automation, while FASTag events can support movement visibility. This final statement is an application-level interpretation; access to data remains governed by the relevant platform and authorization processes.

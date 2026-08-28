@@ -1,0 +1,6 @@
+TITLE: ULIP Surpasses 100 Crore API Transactions
+SOURCE: Press Information Bureau, Government of India
+URL: https://www.pib.gov.in/PressReleasePage.aspx?PRID=2112727
+DATE: 2025-03-19
+
+The Unified Logistics Interface Platform (ULIP) reached 100 crore API transactions in March 2025. The PIB release presents ULIP as a digital infrastructure initiative supporting technology-driven logistics and ease of doing business. The milestone is described as evidence of increasing use of API integrations by logistics stakeholders and government departments.

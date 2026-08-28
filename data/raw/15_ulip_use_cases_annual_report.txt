@@ -1,0 +1,10 @@
+TITLE: ULIP Use Cases and Integrated Systems
+SOURCE: DPIIT Annual Report 2023–24, Government of India
+URL: https://www.dpiit.gov.in/static/uploads/2025/06/e918578232bfe357a920c8e5ae3d70cb.pdf
+DATE: 2023-24
+
+The DPIIT Annual Report 2023–24 describes ULIP as an API-based integration platform for logistics systems across government departments. It reports historical progress of integration with 35 systems across eight ministries through 116 APIs, covering more than 1,800 fields.
+
+The report lists examples of private-sector use cases: track and trace, gate automation, financing and payments for transporters, green or sustainable logistics, process digitization, e-KYC and verification, third-party transporter validation, and insurance claim and settlement. It says integration with GSTN’s e-Way Bill system had been completed.
+
+The report also describes a FASTag API that fetches a vehicle registration number against a FASTag number for gate automation, a FOIS API for freight charges between train stations, and an e-challan API for challan verification. These statements reflect the report’s 2023–24 snapshot and should not be read as a current public API catalogue.

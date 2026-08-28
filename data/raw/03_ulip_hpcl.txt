@@ -1,0 +1,8 @@
+TITLE: HPCL Integration with ULIP
+SOURCE: Press Information Bureau, Government of India
+URL: https://www.pib.gov.in/PressReleasePage.aspx?PRID=2084910&lang=1&reg=3
+DATE: 2024-12-16
+
+HPCL signed an agreement with NICDC Logistics Data Services Ltd. to integrate APIs with the Unified Logistics Interface Platform. The HPCL API provides fuel-station and pricing visibility, including information about the location and pricing of HPCL fuel stations across India.
+
+The PIB release explains that this kind of data can help logistics service providers, traders and transporters plan operations, improve visibility and reduce inefficiencies. The release describes ULIP as a digital gateway through which industry players can access logistics-related datasets from government systems through API-based integration.

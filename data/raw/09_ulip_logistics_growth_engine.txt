@@ -1,0 +1,6 @@
+TITLE: ULIP and Logistics Visibility
+SOURCE: Press Information Bureau / Government of India publication
+URL: https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/aug/doc2025816613701.pdf
+DATE: 2025
+
+A Government of India logistics publication describes ULIP as a digital platform that brings together data from logistics-related ministries and departments through a single interface. It notes that ULIP reached 100 crore API transactions in March 2025 and describes ULIP as supporting shipment ETAs and logistics visibility.

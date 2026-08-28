@@ -1,0 +1,8 @@
+{
+  "total_cases": 42,
+  "answerable_cases": 32,
+  "out_of_corpus_cases": 10,
+  "hit_rate_at_1": 0.688,
+  "hit_rate_at_5": 0.969,
+  "out_of_corpus_refusal_rate": 0.5
+}

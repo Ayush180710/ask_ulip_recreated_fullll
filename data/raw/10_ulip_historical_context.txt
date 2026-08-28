@@ -1,0 +1,6 @@
+TITLE: ULIP Historical Context
+SOURCE: Press Information Bureau, Government of India
+URL: https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=1806620&lang=2&reg=48
+DATE: 2022-03-16
+
+ULIP was designed by NICDC under the guidance of NITI Aayog as a platform for data exchange among transport-mode operators. Early integrations included government systems from ports, shipping, railways, road transport, civil aviation, foreign trade and customs. The project was intended to make government logistics data accessible through APIs for stakeholders.

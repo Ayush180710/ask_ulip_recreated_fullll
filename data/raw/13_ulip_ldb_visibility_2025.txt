@@ -1,0 +1,10 @@
+TITLE: ULIP and Logistics Data Bank 2.0
+SOURCE: Press Information Bureau, Government of India
+URL: https://www.pib.gov.in/PressReleasePage.aspx?PRID=2195125&lang=2&reg=3
+DATE: 2025-11-27
+
+A November 2025 PIB backgrounder says ULIP integrates data across departments, while Logistics Data Bank (LDB) 2.0 provides real-time visibility of containers. It describes these platforms as part of a data-driven logistics ecosystem alongside policy reforms and multimodal infrastructure.
+
+The source says LDB 2.0 synchronizes with ULIP APIs to offer exporters and MSMEs visibility across road, rail, sea and high seas. It states that users can track shipments through container number, vehicle number and railway Freight Name Record (FNR) number, and that a live container heatmap can surface delays.
+
+The backgrounder also explains that the National Logistics Policy and PM GatiShakti support an integrated, data-driven logistics ecosystem intended to reduce costs and improve efficiency.

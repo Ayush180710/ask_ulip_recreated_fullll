@@ -1,0 +1,10 @@
+TITLE: Sagar Setu, FOIS and ULIP Integration
+SOURCE: Press Information Bureau, Government of India
+URL: https://www.pib.gov.in/PressReleasePage.aspx?PRID=2040640&lang=1&reg=3
+DATE: 2024-08-02
+
+A Ministry of Ports, Shipping and Waterways PIB reply explains that Sagar Setu supports real-time data exchange for importers, exporters, customs brokers and freight forwarders. It reports that Sagar Setu had integration with major and non-major ports and that the platform supports several port-related activities.
+
+The source says Sagar Setu messages are integrated with the Freight Operations Information System (FOIS) for information including voyage registration, electronic verified gross mass, berth allotment and container or bulk pendency. It also says that multiple messages are integrated between ULIP and Sagar Setu.
+
+The reply further describes ICEGATE integration as streamlining electronic data exchange between customs and ports. This document supports questions about the role of port, customs and rail systems in multimodal logistics.
