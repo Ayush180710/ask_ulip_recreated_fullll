@@ -26,13 +26,13 @@ if not q:
 else:
     with st.chat_message('user'): st.write(q)
     with st.chat_message('assistant'):
-        with st.spinner('Retrieving and generating...'):
+        with st.spinner('Retrieving, reranking and generating...'):
             answer,results=rag.ask(q,k)
         st.markdown(answer)
         with st.expander('Retrieved sources'):
             for i,r in enumerate(results,1):
                 c=r['chunk']
                 st.markdown(f'**{i}. {c.title}**')
-                st.caption(f'{c.source} · {c.date} · similarity {r["score"]:.3f}')
+                st.caption(f'{c.source} · {c.date} · similarity {r["score"]:.3f} · rerank {r["rerank_score"]:.3f}')
                 if c.url: st.markdown(f'[Open public source]({c.url})')
                 st.write(c.text[:600] + ('...' if len(c.text)>600 else ''))

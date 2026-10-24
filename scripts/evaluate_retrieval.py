@@ -16,8 +16,10 @@ def evaluate(test_set=DEFAULT_SET, top_k=5):
     rag = RAGPipeline()
     rows, answerable, hit_at_1, hit_at_k, out_of_corpus, refusals = [], 0, 0, 0, 0, 0
     for case in cases:
-        results = rag.retriever.search(case['question'], top_k)
+        results = rag.retrieve(case['question'], top_k)
         titles = [item['chunk'].title for item in results]
+        top1_score = results[0]['score'] if results else None
+        top1_rerank = results[0]['rerank_score'] if results else None
         expected = set(case['expected_titles'])
         top1_hit = bool(expected and titles and titles[0] in expected)
         topk_hit = bool(expected.intersection(titles))
@@ -38,7 +40,10 @@ def evaluate(test_set=DEFAULT_SET, top_k=5):
         rows.append({
             'id': case['id'], 'question': case['question'], 'answerable': case['answerable'],
             'expected_evidence': ' | '.join(case['expected_titles']),
-            'top1': titles[0] if titles else '', 'retrieved_titles': ' | '.join(titles),
+            'top1': titles[0] if titles else '',
+            'top1_score': round(top1_score, 4) if top1_score is not None else '',
+            'top1_rerank_score': round(top1_rerank, 4) if top1_rerank is not None else '',
+            'retrieved_titles': ' | '.join(titles),
             'hit_at_1': top1_hit if case['answerable'] else 'N/A',
             'hit_at_k': topk_hit if case['answerable'] else 'N/A',
             'refusal_correct': refused if not case['answerable'] else 'N/A',

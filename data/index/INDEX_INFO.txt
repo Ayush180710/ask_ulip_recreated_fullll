@@ -1,6 +1,15 @@
 Prebuilt Ask ULIP demo index.
 
 File: faiss.index
-Type in this offline package: NumPy vector matrix stored in an .npz container under the requested FAISS index filename.
-Purpose: self-contained manager demo without requiring a model download.
-For production: install faiss-cpu + sentence-transformers and rebuild a genuine FAISS IndexFlatIP index.
+Type: genuine FAISS IndexFlatIP, written by faiss.write_index().
+Vectors: sentence-transformers/all-MiniLM-L6-v2, 384 dimensions, L2-normalised.
+Because vectors are unit length, inner product equals cosine similarity.
+
+Contents: 28 chunks from 16 public documents in data/raw/.
+Companion file: metadata.json, holding each chunk's title, source, URL and date,
+aligned by position with the vectors in the index.
+
+Rebuild with: python scripts/build_index.py
+
+Note: retrieval returns 15 candidates from this index, which a cross-encoder
+(ms-marco-MiniLM-L-6-v2) then reranks down to the top 5. See README.md.

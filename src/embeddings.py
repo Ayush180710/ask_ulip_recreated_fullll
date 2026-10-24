@@ -1,23 +1,21 @@
-import re
-import numpy as np
-from sklearn.feature_extraction.text import HashingVectorizer
-from sklearn.preprocessing import normalize
-from .config import HASH_DIM
+from sentence_transformers import SentenceTransformer
+from .config import EMBEDDING_MODEL
 
-# Offline-safe deterministic embedding fallback. If sentence-transformers is installed,
-# build_index.py can be switched to it with USE_SENTENCE_TRANSFORMERS=1.
-VECTORIZER = HashingVectorizer(
-    n_features=HASH_DIM,
-    alternate_sign=False,
-    norm=None,
-    lowercase=True,
-    stop_words='english',
-    token_pattern=r'(?u)\b[a-zA-Z][a-zA-Z0-9_-]+\b',
-    ngram_range=(1,2),
-)
+# Loaded once and reused. Downloading/loading the model on every call would be slow;
+# this keeps a single copy in memory for the lifetime of the process.
+_model = None
+
+def _get_model():
+    global _model
+    if _model is None:
+        _model = SentenceTransformer(EMBEDDING_MODEL)
+    return _model
 
 def embed(texts):
-    x = VECTORIZER.transform(texts).astype('float32').toarray()
-    # A query containing only unseen tokens has a zero vector. Convert the
-    # resulting non-finite normalized values to zero so retrieval can refuse it.
-    return np.nan_to_num(normalize(x, norm='l2'), nan=0.0, posinf=0.0, neginf=0.0).astype('float32')
+    model = _get_model()
+    # normalize_embeddings=True makes every vector unit length, so a plain dot
+    # product between two vectors equals their cosine similarity. That lets the
+    # FAISS index use a simple inner-product search instead of a slower,
+    # separate cosine computation.
+    vectors = model.encode(texts, normalize_embeddings=True, convert_to_numpy=True)
+    return vectors.astype('float32')
